@@ -1,10 +1,12 @@
-If run code below:
+If run this:
 ```javascript
 const obj = { text: 'hello, world' }
 document.body.innerText = obj.text
 ```
 
-we'll see "hello, world" on the browser, and we expect as long as we change the obj.text, the text on browser will follow the change, for example:
+we'll see "hello, world" on the browser, and we expect as long as we change the obj.text, the text on browser will follow the change
+
+ for example:
 ```javascript
 // code1.html
 

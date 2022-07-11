@@ -1,8 +1,9 @@
 # Implement-your-Vue3
 Implement a simple Vue3 to understand Vue3.
+
 You'd better have Vue experience or at least have read Vue docs. 
 
-First,let's see this code below:
+This is a simple demo on Vue3:
 ```html
 <!-- html -->
 
@@ -26,5 +27,9 @@ const app = createApp({
 
 app.mount('#app')
 ```
-when we click the button, the number on the browser will change. why? I think this question can be a good start to let's go deep into vue. 
+when we click the button, the number on the browser will change. 
+
+why? 
+
+I think this question can be a good start to let's go deep into vue. 
 

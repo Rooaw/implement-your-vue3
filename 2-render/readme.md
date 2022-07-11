@@ -1,4 +1,4 @@
-In the 01-responsive folder, we just use the `document.body.innerHTML = obj.text` to render text on browser.
+In the 1-responsive folder, we just use the `document.body.innerHTML = obj.text` to render text on browser.
 
 But in .vue file we use \<template> include the html code. and .vue file actually return a object like that:
 ```javascript
@@ -65,6 +65,7 @@ The renderer do:
 2. mount the real element to the root node which is the second parameter.
 3. if responsive data change, the effect function will run
 4. now we must be taken minimal changes to render the new vnode, so there is old and new vnode need to be compared and vue3 use diff algorithm.
+
 The code will be like:
 ```javascript
 // pseudo code
