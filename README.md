@@ -4,7 +4,7 @@ You'd better have Vue experience or at least have read Vue docs.
 
 First,let's see this code below:
 ```html
-// html
+<!-- html -->
 
 <div id="app">
   <button @click="count++">{{ count }}</button>
@@ -13,6 +13,7 @@ First,let's see this code below:
 
 ```javascript
 // js
+
 import { createApp } from 'vue'
 
 const app = createApp({
